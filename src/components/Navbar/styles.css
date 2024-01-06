@@ -1,0 +1,31 @@
+.main-nav {
+  min-height: 70px;
+  padding-left: 40px;
+}
+
+.nav-logo-text,
+.nav-logo-text:hover {
+  color: #00285f;
+  text-decoration: none;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+  font-size: 18px;
+  width: 380px;
+}
+.main-menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-menu a:hover {
+  color: #fff;
+}
+
+.main-menu a.active {
+  color: #fff;
+  font-weight: 700;
+}
