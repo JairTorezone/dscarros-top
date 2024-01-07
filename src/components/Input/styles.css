@@ -1,0 +1,39 @@
+.form-container {
+  width: 100%;
+}
+.input-wrapper {
+  width: 100%;
+  display: flex;
+
+  border-radius: 10px;
+  background: #ededed;
+  padding: 22px 10px;
+}
+
+.input-wrapper label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+.input-wrapper input {
+  width: 100%;
+  padding: 12px;
+  background: #fff;
+  border: none;
+
+  color: #a7a7a7;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.input-wrapper input::placeholder {
+  color: #a7a7a7;
+}

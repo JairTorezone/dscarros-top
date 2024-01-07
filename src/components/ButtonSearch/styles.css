@@ -1,0 +1,20 @@
+.btn-search button {
+  border: 0;
+  padding: 12px;
+
+  border-radius: 0px 5px 5px 0px;
+  background: #00285f;
+  color: #fff;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media (min-width: 576px) {
+  .btn-search button {
+    border: 0;
+    padding: 12px 60px;
+  }
+}
