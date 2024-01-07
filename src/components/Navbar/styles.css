@@ -2,23 +2,23 @@
   min-height: 70px;
   padding-left: 40px;
 }
-
 .nav-logo-text,
 .nav-logo-text:hover {
   color: #00285f;
-  text-decoration: none;
 }
 
 .main-menu {
   display: flex;
   justify-content: end;
-  gap: 30px;
   font-size: 18px;
   width: 380px;
+
+  gap: 48px;
+  padding: 0 20px;
+  color: #00285f;
 }
-.main-menu a {
-  color: #fff;
-  text-decoration: none;
+.main-menu li a {
+  color: #00285f;
 }
 
 .main-menu a:hover {
@@ -28,4 +28,10 @@
 .main-menu a.active {
   color: #fff;
   font-weight: 700;
+}
+
+@media (min-width: 1400px) {
+  .main-nav {
+    padding-left: 150px;
+  }
 }

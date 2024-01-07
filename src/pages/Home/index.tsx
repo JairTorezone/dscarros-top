@@ -1,7 +1,8 @@
 import "./styles.css";
 import carYellowImg from "../../assets/images/car-yellow.png";
-import NavBar from "components/Navbar";
-import ButtonCatalog from "components/ButtonCatalog";
+
+import ButtonCatalog from "../../components/ButtonCatalog";
+import NavBar from "../../components/Navbar";
 
 function Home() {
   return (
