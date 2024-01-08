@@ -1,3 +1,12 @@
 .catalog-container {
   padding: 20px 10px;
 }
+.form {
+  margin-bottom: 20px;
+}
+.catalog-cards-container {
+  width: 100%;
+  max-width: 980px;
+
+  margin: 0 auto;
+}

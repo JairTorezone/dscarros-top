@@ -1,11 +1,12 @@
-.btn-search button {
+.btn-buy button {
   border: 0;
-  padding: 12px;
+  padding: 12px 80px;
 
-  border-radius: 0px 5px 5px 0px;
+  width: 100%;
+
   background: #00285f;
   color: #fff;
-
+  border-radius: 5px;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -14,9 +15,9 @@
   text-transform: uppercase;
 }
 
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   .btn-search button {
     border: 0;
     padding: 12px 60px;
   }
-}
+} */
